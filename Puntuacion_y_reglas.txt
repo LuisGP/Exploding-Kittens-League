@@ -1,73 +1,27 @@
-Duración de la liga: 1 mes
+Duración de la liga: X semanas / X partidas / X puntos
 Número de jugadores por partida: N (para ser válida para liga mínimo 4 jugadores)
-Mulligan: Se permite, antes de meter las bombas (y los defuses si sobraran) descartar la mano completa para volver a robarla entera, pero una carta menos. 
-	Sin límite de repeticiones, una menos carta cada vez.
+Mulligan: Se permite, antes de meter las bombas (y los defuses si sobraran) descartar la mano completa para volver a robarla entera, teniendo que descartar una carta luego. 
+	Sin límite de repeticiones, un descarte adicional cada vez.
+	-> Propuesta (by MC): Hacer mulligan incluyendo el defuse, con la alta probabilidad de perderlo en la nueva mano.
 
 Puntuación
 
 General:
-- Ganador: 100 x (N-1)
-- Finalista: 50 x (N-1)
-- Primer eliminado: -50
-- Eliminado por imploding: -10
-- Oponente eliminado: 50 (sólo por acción DIRECTA contra él, es decir, no se le dejó opción. Por ejemplo culo de gato y que muera con él activo. O negarle un skip y que
-	se vea forzado a robar una bomba conocida). No suma en la final.
+- Ganador: 10 x (N-1)
+- Finalista: 5 x (N-1)
+- Eliminado por imploding: -1
+- Oponente eliminado: 1 (sólo por acción DIRECTA contra él, es decir, no se le dejó opción. Por ejemplo culo de gato y que muera con él activo. O negarle un skip y que
+	se vea forzado a robar una bomba conocida). No suma en la final. En caso de duda, votación popular.
 
 Extras y penalizaciones:
-- Combo: Eliminar directamente a un jugador usando 3 o más cartas: +50 adicionales
-- Perfil bajo: Llegar a la final con 7 o más cartas: +50
-- Paliza skin*: Ayudar a otro jugador a eliminar directamente a un oponente: +20
-- No puedes pasar: Defenderse exitosamente de un intento de Paliza skin: +100
-- Morir matando*: Eliminar directamente a un jugador en el mismo turno, o en el siguiente a nuestra eliminación: +50
-- Ensañamiento: Robar más de 3 cartas al mismo jugador en una misma partida (o intentarlo): -20
-- Ruleta rusa*: Arriesgarse a vida o muerte y vivir: +20 (por ejemplo tratando de robar un streaking sin saber si tiene o no la bomba).
-- Jogo bonito: En cada partida cada jugador dispone de 20 puntos que podrá asignar a otro jugador en función de su partida.
-- Rácano: Si no se usa el bonus Jogo bonito, pero 2 o más jugadores lo dieron a 2 o más jugadores distintos: -50
-- Epic FAIL: Cagada resultante en efecto claramente negativo por falta de atención: -50
-- Too late*: Pillado en las nubes más de 2 veces: -200
+- Combo: Eliminar directamente a un jugador usando 3 o más cartas en el mismo turno: +2
+- Perfil bajo: Llegar a la final con 7 o más cartas: +1
+- Ensañamiento: Robar más de 3 cartas al mismo jugador en una misma partida (o intentarlo): -1
+- Ruleta rusa*: Arriesgarse a vida o muerte y vivir: +2 (por ejemplo tratando de robar un streaking al azar sabiendo que tiene la bomba).
+- Jogo bonito: En cada partida cada jugador dispone de 1 punto que podrá asignar a otro jugador en función de su partida.
+- Rácano: Si no se usa el bonus Jogo bonito: -1
+- Epic FAIL: Cagada resultante en efecto claramente negativo por falta de atención: -2
+- Too late*: Empanado más de 2 veces: -2
 
 Las marcadas con * requieren mayoria absoluta de votos para asignarse.
-
-Ejemplo:
-Partida de 6 jugadores: A, B, C, D, E y F
-
-El jugador B roba el IMPLODING KITTEN en la primera ronda y lo pone encima del todo, matando al jugador C que intenta hacer SKIP pero A le responde con un NOPE.
-B += 50
-> C -= 50
-A += 20
-
-D juega CULO sobre E, D echa un CATOMIC BOMB. E usa a ciegas un DRAW FROM THE BOTTOM, F echa un NOPE y E usa a ciegas otro NOPE, logrando robar de abajo y salvándose.
-E += 100
-
-F no tiene elección y muere
-D += 50
-> F
-
-A roba un EXPLODING kitten (por el CATOMIC) y un tiempo más tarde D le pide un favor, explotando y muriendo por el EXPLODING.
-A += 50
-> D -= 50
-
-E muere aleatoriamente
-> E
-
-B llega a la final con A con más de 7 cartas en su poder.
-B += 50
-
-A gana a B:
-A += 500
-B += 250
-
-A, B y D deciden asignar el bonus Jogo bonito a E por su suerte cuando estaba ciego. E y C se lo asignan a A por el NOPE del imploding. F se lo asigna a D por el catomic.
-E += 60
-A += 40
-D += 20
-
-TOTAL:
-A = 610
-B = 400
-E = 160
-D = 20
-F = 0
-C = -50
-
 
